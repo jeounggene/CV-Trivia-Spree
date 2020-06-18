@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/home_app_name"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/intro"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/menu"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/intro"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/quiz_solo"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:layout_toLeftOf="@+id/inst"
+        android:layout_toStartOf="@+id/inst"
+        android:background="@drawable/round_button2"
+        android:text="@string/introb"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="9pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/inst"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/quiz_dual_1"
+        android:layout_alignEnd="@+id/home_app_name"
+        android:layout_alignRight="@+id/home_app_name"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:background="@drawable/round_button2"
+        android:text="@string/instb"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="9pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quiz_solo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/home_app_name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/home_app_name"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/round_button"
+        android:text="@string/quizs"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quiz_dual_1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/quiz_solo"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:text="@string/quiz1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quiz_dual_2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/home_app_name"
+        android:layout_alignRight="@+id/home_app_name"
+        android:layout_alignTop="@+id/quiz_dual_1"
+        android:background="@drawable/round_button"
+        android:text="@string/quiz2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+</RelativeLayout>

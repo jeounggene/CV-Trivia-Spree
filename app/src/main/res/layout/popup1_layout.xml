@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup1_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/popup1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="40sp"
+        android:text="@string/intros"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+<!--
+    <ImageButton
+        android:id="@+id/popup1_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/ic_close_white_24dp" />
+
+    <TextView
+        android:id="@+id/popup1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20sp"
+        android:text="@string/intros"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+-->
+</RelativeLayout>
